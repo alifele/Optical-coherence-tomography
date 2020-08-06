@@ -1,0 +1,1 @@
+from Tabs.Dynamical_systems.neuron_models.Fithz.Implementation.plotWidget import canvas_widget

@@ -1,0 +1,55 @@
+QToolBar {
+    padding: 0px;
+}
+
+QTabWidget:pane {
+	border-radius: 10px;
+	margin:0px;
+/*
+  background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0, stop: 0 #efefef, stop: 0.5 #e5e5e5, stop: 1.0 #fdfdfd);
+*/
+    border-bottom: 0px solid rgba(0,0,0,20%);
+    border-top: 2px solid rgba(0,0,0,20%);
+    top: -1;
+    bottom: 2;
+
+}
+QTabWidget{
+
+
+}
+
+QTabWidget::tab-bar {
+
+    left: 2px;
+}
+
+QTabBar::tab {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right:4px;
+    color:#FFFFFF;
+ }
+
+QTabBar::tab:hover {
+  /*
+    background: rgba(120, 120, 0, 20%);
+    */
+    background-color: #384e63;
+
+}
+
+QTabBar::tab:selected{
+    /*
+    background: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0, stop: 0 #fdfdfd, stop: 1.0 #efefef);
+*/
+background: #0b5580;
+    color: #FFFFFF;
+
+    border: 1px solid rgba(0,0,0,20%);
+    border-bottom-color: #0c9ff5;
+}
